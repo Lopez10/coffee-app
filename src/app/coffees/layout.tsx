@@ -1,11 +1,10 @@
-export default function CoffeeLayout({
+export default function CoffeesLayout({
 	children
 }:{
 	children: React.ReactNode;
-}) {
+}) {	
 	return (
 		<div>
-			<h1>Layout coffee</h1>
 			{children}
 		</div>
 	);
